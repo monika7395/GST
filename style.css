@@ -1,0 +1,43 @@
+/*css file*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+body{
+ background-size: cover;
+ background-position: center;
+ font-family: Century Gothic;
+}  
+.main_menu {
+    background: rgb(0,100,0);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.main_menu ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 5px;
+    color: blue;
+}
+.main_menu ul li{
+    display: inline-block;
+    width: 150px;
+    padding-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    
+}
+.main_menu ul li hover .sub-menu ul li a:hover{
+    color: #b2ff00;
+}
+
+.main_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border:1px solid #fff;
+}
